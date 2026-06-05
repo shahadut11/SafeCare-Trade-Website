@@ -84,7 +84,7 @@ export default function Hero() {
           <p className="font-body text-white/50 mb-11"
              style={{ fontSize: 'clamp(15px,1.6vw,18px)', lineHeight: 1.8, maxWidth: '500px' }}>
             Complete fire safety engineering — design, supply, installation & 24/7 maintenance.
-            Trusted by <strong className="text-white/75">500+ enterprises</strong> across Bangladesh.
+            Trusted by <strong className="text-white/75">50+ enterprises</strong> across Bangladesh.
           </p>
 
           {/* CTAs */}

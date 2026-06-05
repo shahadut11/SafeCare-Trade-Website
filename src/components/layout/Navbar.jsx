@@ -57,10 +57,10 @@ export default function Navbar() {
 
             <div>
               <span className="font-display font-extrabold text-lg text-[#FF7233] tracking-tight leading-tight block">
-                SafeCare & Trade
+                SafeCare Trade & Engineering 
               </span>
               <span className="font-body text-[10px] text-white/20 tracking-[0.18em] uppercase">
-                Engineering Ltd.
+                Where Protection Takes Priority!
               </span>
             </div>
           </Link>

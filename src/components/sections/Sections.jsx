@@ -227,7 +227,7 @@ export function Clients() {
         <div className="text-center mb-12 reveal">
           <span className="section-label mb-3">Trusted By</span>
           <h2 className="font-display font-extrabold text-white" style={{ fontSize: 'clamp(1.6rem,3vw,2.4rem)', letterSpacing: '-0.02em' }}>
-            Brands That Trust <span className="grad-fire">PyroShield</span>
+            Brands That Trust <span className="grad-fire">SafeCare Trade</span>
           </h2>
         </div>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-2.5 reveal">

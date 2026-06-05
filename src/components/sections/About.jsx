@@ -25,17 +25,17 @@ export default function About() {
             </div>
             {/* XP badge */}
             <div className="absolute -bottom-5 -left-5 rounded-[18px] p-[18px_24px] animate-card-float" style={{ background: 'rgba(10,10,18,0.85)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
-              <span className="font-display font-black block leading-none" style={{ fontSize: '3rem', background: 'linear-gradient(135deg,#ff4500,#ff8c00)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>25+</span>
+              <span className="font-display font-black block leading-none" style={{ fontSize: '3rem', background: 'linear-gradient(135deg,#ff4500,#ff8c00)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>7+</span>
               <span className="font-body text-[13px] text-white/35 mt-1 block whitespace-nowrap">Years of Excellence</span>
             </div>
           </div>
 
           {/* Content */}
           <div className="reveal-r">
-            <span className="section-label mb-4">About PyroShield</span>
+            <span className="section-label mb-4">About SafeCare Trade</span>
             <h2 className="font-display font-extrabold text-white mb-5" style={{ fontSize: 'clamp(2rem,4vw,3rem)', lineHeight: 1.1, letterSpacing: '-0.03em' }}>
               Engineering Safety,<br/>
-              <span style={{ background: 'linear-gradient(135deg,#ff4500,#ff8c00)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>Saving Lives</span> Since 1999
+              <span style={{ background: 'linear-gradient(135deg,#ff4500,#ff8c00)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>Saving Lives</span> Since 2019
             </h2>
             <p className="font-body text-white/40 leading-relaxed mb-8" style={{ fontSize: '16px' }}>{ABOUT.body}</p>
 

@@ -19,7 +19,7 @@ export const SITE = {
 
   social: {
     facebook:
-      'https://www.facebook.com/',
+      'https://web.facebook.com/profile.php?id=61567911577967',
   },
 }
 
@@ -43,11 +43,11 @@ export const HERO = {
 
   stats: [
     {
-      value: '12+',
+      value: '7+',
       label: 'Years Experience',
     },
     {
-      value: '100+',
+      value: '50+',
       label: 'Projects Completed',
     },
     {
@@ -112,19 +112,19 @@ export const ABOUT = {
 
 export const STATS = [
   {
-    target: 100,
+    target: 50,
     label: 'Projects Completed',
   },
   {
-    target: 50,
+    target: 40,
     label: 'Happy Clients',
   },
   {
-    target: 15,
+    target: 25,
     label: 'Expert Team',
   },
   {
-    target: 12,
+    target: 7,
     label: 'Years Experience',
   },
 ]
@@ -305,29 +305,51 @@ export const PROJECTS = [
 ]
 
 export const CLIENTS = [
+   
+
+  'W.Apparels Ltd',
+  'AKH Group',
+  'Quality Apparels',
+  'Bengal Group',
+  'Ratul Group',
+  'K.A Design Wear Ltd',
   'Dekko Group',
   'Mondol Group',
   'Abir Fashion',
+  'Ahmed Fashion',
+  'Inovative Shoe Makers Ltd',
   'Nipa Group',
   'Square Group',
   'Orion Group',
   'United Group',
-  'Quality Apparels',
-  'K-One Group',
-  'Orchid Group',
-  'AKH Group',
+  'K-One Ltd',
+  'Orchid Apprels Ltd',
   'Montrims Ltd',
-  'Spectra',
+  'Spectra Sweaters Ltd',
   'Maati Properties',
-  'Eve Dresswear',
-  'Teton Group',
+  'Eve Dress Shirts Ltd',
+  'Textown Group',
+  'ISPAHANI',
+  'Northern Tosrifa Group',
+  'Fakir Garments Ltd',
+  'Renaissance Group',
+  'Windy Group',
+  'Chaity Group',
+  'Posmi Sweater Ltd.',
+  'Base Fashions Ltd.',
+  'Azim & Sons Group',
+  'FNF Trend Fashions Ltd.',
+  'Sheltech Ceramics Ltd.',
+  'Glope Apparels Ltd.',
+  'AR Geans Producer Ltd.',
+
 ]
 
 export const TESTIMONIALS = [
   {
     initials: 'DG',
     name: 'Project Manager',
-    role: 'Dekko Group',
+    role: 'W Apparels Ltd.',
     stars: 5,
     quote:
       'SafeCare Trade & Engineering delivered our fire protection system professionally and on time.',
@@ -336,7 +358,7 @@ export const TESTIMONIALS = [
   {
     initials: 'SG',
     name: 'Facility Head',
-    role: 'Square Group',
+    role: 'AKH Group',
     stars: 5,
     quote:
       'Excellent technical support and quality installation services.',
@@ -345,7 +367,7 @@ export const TESTIMONIALS = [
   {
     initials: 'OG',
     name: 'Operations Manager',
-    role: 'Orion Group',
+    role: 'Quality Group',
     stars: 5,
     quote:
       'Highly recommended for fire safety and engineering consultancy.',
@@ -360,7 +382,7 @@ export const FAQS = [
 
   {
     q: 'Which fire protection systems do you install?',
-    a: 'Fire Alarm, Hydrant, Sprinkler, Fire Pump, FM-200 and all related systems.',
+    a: 'Fire Alarm & Detection System, Fire Hydrant System, Fire Sprinkler System, Fire Pump System, Fire Suppression System FM-200 and all related systems.',
   },
 
   {

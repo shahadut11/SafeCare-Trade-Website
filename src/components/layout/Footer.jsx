@@ -26,7 +26,7 @@ export default function Footer() {
               />
 
               <span className="font-display font-extrabold text-xl text-[#FF7233]">
-                SafeCare & Trade
+                SafeCare Trade & Engineering 
               </span>
             </div>
 
@@ -163,8 +163,8 @@ export default function Footer() {
               {SITE.email}
               <br />
               <br />
-              House 42, Road 11, Block D<br />
-              Banani, Dhaka-1213
+              House-20 (Gr. FL), Road-6, Lane-4, Block-B, <br />
+              Mirpur-6, Dhaka-1216, Bangladesh
               <br />
               <br />
               Sun–Thu: 9AM–6PM · Emergency 24/7

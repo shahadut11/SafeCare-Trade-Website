@@ -46,7 +46,7 @@ export function Services() {
         <div className="text-center max-w-lg mx-auto mb-14 reveal">
           <span className="section-label mb-4">Our Services</span>
           <h2 className="font-display font-extrabold text-white" style={{ fontSize: 'clamp(2rem,4vw,3rem)', lineHeight: 1.1, letterSpacing: '-0.03em' }}>
-            Complete Fire Safety <span className="grad-fire">Solutions</span>
+            Complete Fire & Electrical Safety <span className="grad-fire">Solutions</span>
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

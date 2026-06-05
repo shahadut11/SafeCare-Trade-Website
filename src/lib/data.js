@@ -1,6 +1,8 @@
 // ─────────────────────────────────────────────────────────
 // lib/data.js
-// SafeCare Trade & Engineering
+// SafeCare Trade & Engineering 
+
+
 // ─────────────────────────────────────────────────────────
 
 export const SITE = {

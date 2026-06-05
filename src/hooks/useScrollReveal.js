@@ -5,6 +5,7 @@ import { useEffect } from 'react'
  * useScrollReveal — adds `.on` class to every .reveal / .reveal-l / .reveal-r
  * element when it enters the viewport.
  * Also animates .prog-fill bars and data-target counters.
+ * 
  */
 export function useScrollReveal() {
   useEffect(() => {

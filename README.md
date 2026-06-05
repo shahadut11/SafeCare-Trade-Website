@@ -1,4 +1,4 @@
-# 🔥 PyroShield V2 Premium — Next.js Project
+# 🔥 SafeCare V2 Premium — Next.js Project
 
 A **premium, production-ready** fire safety corporate website built with **Next.js 14**, **Tailwind CSS**, and **Framer Motion**.
 Dark glassmorphic theme · Fire gradient palette · Scroll animations · Fully responsive.
@@ -8,7 +8,7 @@ Dark glassmorphic theme · Fire gradient palette · Scroll animations · Fully r
 ## 📁 Project Structure
 
 ```
-pyroshield-v2-nextjs/
+SafeCare-v2-nextjs/
 │
 ├── src/
 │   ├── app/

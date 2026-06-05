@@ -1,0 +1,8 @@
+export { Stats }        from './Sections'
+export { Services }     from './Sections'
+export { Products }     from './Sections'
+export { Projects }     from './Sections'
+export { CtaBanner }    from './Sections'
+export { Clients }      from './Sections'
+export { Testimonials } from './Sections'
+export { Faq }          from './Sections'

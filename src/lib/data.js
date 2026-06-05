@@ -53,7 +53,7 @@ export const HERO = {
       label: 'Projects Completed',
     },
     {
-      value: '50+',
+      value: '40+',
       label: 'Happy Clients',
     },
     {

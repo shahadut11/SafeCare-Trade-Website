@@ -2,7 +2,61 @@
 // lib/data.js
 // SafeCare Trade & Engineering 
 
+import wApparelsLogo from '../assets/logo/wapparels_logo.jpeg';
+import akhLogo from '../assets/logo/akh.jpg'
+import qualityApparelsLogo from '../assets/logo/qualityAparales-Logo.png'
+import bengalLogo from '../assets/logo/bengal-logo.png'
+import ratulLogo from '../assets/logo/ratul-logo.png'
+import kaDesignWearLogo from '../assets/logo/ka design-logo.png'
+import dekkoLogo from '../assets/logo/dekko-logo.png'
+import mondolLogo from '../assets/logo/mondol_logo-01.png'
+import abirFashionLogo from '../assets/logo/abir-logo.png'
+import ahmedFashionLogo from '../assets/logo/ahmedfashion.png'
+import inovativeShoeMakersLogo from '../assets/logo/inovativeshoe logo.png'
+import nipaLogo from '../assets/logo/niparaihan.jpg'
+import squareLogo from '../assets/logo/squere-logo.png'
+import orionLogo from '../assets/logo/orin-logo.svg'
+import unitedLogo from '../assets/logo/united-logo.svg'
+import kOneLogo from '../assets/logo/kone.png'
+import montrimsLogo from '../assets/logo/montrims-logo.png'
+import spectraSweatersLogo from '../assets/logo/spectra-logo.png'
+import maatiPropertiesLogo from '../assets/logo/mati-logo.png'
+import textownLogo from '../assets/logo/textown-logo.png'
+import ispahaniLogo from '../assets/logo/ispahani-logo.png'
+import northernTosrifaLogo from '../assets/logo/tosrifa-logo.png'
+import fakirGarmentsLogo from '../assets/logo/fakir-logo.png'
+import windyLogo from '../assets/logo/windy-logo.png'
+import chaityLogo from '../assets/logo/chaity-logo.png'
+import posmiSweaterLogo from '../assets/logo/posmi-logo.png'
 
+import fnfTrendFashionsLogo from '../assets/logo/FNFlogopng.jpg'
+import sheltechCeramicsLogo from '../assets/logo/sheltec-logo.png'
+import glopeApparelsLogo from '../assets/logo/globe-logo.png'
+import arGeansProducerLogo from '../assets/logo/ar-logo.png'
+
+
+
+
+
+
+import copper from "../assets/productlogo/copper.png"
+import eton from "../assets/productlogo/eton.jpeg"
+import simplex from "../assets/productlogo/simplex.png"
+import bosh from "../assets/productlogo/bosh.png"
+import nafco from "../assets/productlogo/nafco.JPG"
+import ebit from "../assets/productlogo/ebit.png"
+import emako from "../assets/productlogo/emako.jpeg"
+import clarke from "../assets/productlogo/clarke.jpeg"
+import torna from "../assets/productlogo/torna.png"
+import weg from "../assets/productlogo/weg.jpeg"
+import gvi from "../assets/productlogo/gvi.jpeg"
+import mech from "../assets/productlogo/mech.png"
+import toa from "../assets/productlogo/toa.jpeg"
+import pcj from "../assets/productlogo/pcj.jpeg"
+import asico from "../assets/productlogo/asico.jpeg"
+import tianjie from "../assets/productlogo/tianjie.jpeg"
+import abb from "../assets/productlogo/abb.jpeg"
+import gst from "../assets/productlogo/gst.png"
 // ─────────────────────────────────────────────────────────
 
 export const SITE = {
@@ -307,44 +361,58 @@ export const PROJECTS = [
 ]
 
 export const CLIENTS = [
-   
+  { name: 'W.Apparels Ltd', logo: wApparelsLogo },
+  { name: 'AKH Group', logo: akhLogo },
+  { name: 'Quality Apparels', logo: qualityApparelsLogo },
+  { name: 'Bengal Group', logo: bengalLogo },
+  { name: 'Ratul Group', logo: ratulLogo },
+  { name: 'K.A Design Wear Ltd', logo: kaDesignWearLogo },
+  { name: 'Dekko Group', logo: dekkoLogo },
+  { name: 'Mondol Group', logo: mondolLogo },
+  { name: 'Abir Fashion', logo: abirFashionLogo },
+  { name: 'Ahmed Fashion', logo: ahmedFashionLogo },
+  { name: 'Inovative Shoe Makers Ltd', logo: inovativeShoeMakersLogo },
+  { name: 'Nipa Group', logo: nipaLogo },
+  { name: 'Square Group', logo: squareLogo },
+  { name: 'Orion Group', logo: orionLogo },
+  { name: 'United Group', logo: unitedLogo },
+  { name: 'K-One Ltd', logo: kOneLogo },
+  { name: 'Montrims Ltd', logo: montrimsLogo },
+  { name: 'Spectra Sweaters Ltd', logo: spectraSweatersLogo },
+  { name: 'Maati Properties', logo: maatiPropertiesLogo },
+  { name: 'Textown Group', logo: textownLogo },
+  { name: 'ISPAHANI', logo: ispahaniLogo },
+  { name: 'Northern Tosrifa Group', logo: northernTosrifaLogo },
+  { name: 'Fakir Garments Ltd', logo: fakirGarmentsLogo },
+  { name: 'Windy Group', logo: windyLogo },
+  { name: 'Chaity Group', logo: chaityLogo },
+  { name: 'Posmi Sweater Ltd.', logo: posmiSweaterLogo },
+  { name: 'FNF Trend Fashions Ltd.', logo: fnfTrendFashionsLogo },
+  { name: 'Sheltech Ceramics Ltd.', logo: sheltechCeramicsLogo },
+  { name: 'Glope Apparels Ltd.', logo: glopeApparelsLogo },
+  { name: 'AR Geans Producer Ltd.', logo: arGeansProducerLogo },
+]
 
-  'W.Apparels Ltd',
-  'AKH Group',
-  'Quality Apparels',
-  'Bengal Group',
-  'Ratul Group',
-  'K.A Design Wear Ltd',
-  'Dekko Group',
-  'Mondol Group',
-  'Abir Fashion',
-  'Ahmed Fashion',
-  'Inovative Shoe Makers Ltd',
-  'Nipa Group',
-  'Square Group',
-  'Orion Group',
-  'United Group',
-  'K-One Ltd',
-  'Orchid Apprels Ltd',
-  'Montrims Ltd',
-  'Spectra Sweaters Ltd',
-  'Maati Properties',
-  'Eve Dress Shirts Ltd',
-  'Textown Group',
-  'ISPAHANI',
-  'Northern Tosrifa Group',
-  'Fakir Garments Ltd',
-  'Renaissance Group',
-  'Windy Group',
-  'Chaity Group',
-  'Posmi Sweater Ltd.',
-  'Base Fashions Ltd.',
-  'Azim & Sons Group',
-  'FNF Trend Fashions Ltd.',
-  'Sheltech Ceramics Ltd.',
-  'Glope Apparels Ltd.',
-  'AR Geans Producer Ltd.',
 
+export const BRANDS = [
+  { name: 'Cooper', logo: copper },
+  { name: 'Eaton', logo: eton },
+  { name: 'Simplex', logo: simplex },
+  { name: 'Bosch', logo: bosh },
+  { name: 'NAFFCO', logo: nafco },
+  { name: 'EBITT', logo: ebit },
+  { name: 'EMACO', logo: emako },
+  { name: 'Clarke', logo: clarke },
+  { name: 'Tornatech', logo: torna },
+  { name: 'WEG', logo: weg },
+  { name: 'GVI', logo: gvi },
+  { name: 'MECH', logo: mech },
+  { name: 'TOA', logo: toa },
+  { name: 'PCJ', logo: pcj },
+  { name: 'Asico', logo: asico },
+  { name: 'Tianjie', logo: tianjie },
+  { name: 'ABB', logo: abb },
+  { name: 'GST', logo: gst },
 ]
 
 export const TESTIMONIALS = [

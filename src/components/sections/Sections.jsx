@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
-import { STATS, SERVICES, PRODUCTS, PRODUCT_CATEGORIES, PROJECTS, CLIENTS, TESTIMONIALS, FAQS, SITE } from '@/lib/data'
+import { STATS, SERVICES, PRODUCTS, PRODUCT_CATEGORIES, PROJECTS, CLIENTS, TESTIMONIALS, FAQS, SITE, BRANDS } from '@/lib/data'
 import { ArrowRight, ChevronDown } from 'lucide-react'
 
 /* ═══════════════════════════════════════
@@ -217,35 +217,107 @@ export function CtaBanner() {
 }
 
 /* ═══════════════════════════════════════
-   CLIENTS
+   Brands 
 ═══════════════════════════════════════ */
-export function Clients() {
+export function Brands() {
   useScrollReveal()
+
   return (
-    <section id="clients" className="py-24" style={{ background: '#06060a' }}>
+    <section id="brands" className="py-24" style={{ background: '#06060a' }}>
       <div className="max-w-[1280px] mx-auto px-7">
+
         <div className="text-center mb-12 reveal">
           <span className="section-label mb-3">Trusted By</span>
-          <h2 className="font-display font-extrabold text-white" style={{ fontSize: 'clamp(1.6rem,3vw,2.4rem)', letterSpacing: '-0.02em' }}>
-            Brands That Trust <span className="grad-fire">SafeCare Trade</span>
+
+          <h2 className="font-display font-extrabold text-white"
+            style={{ fontSize: 'clamp(1.6rem,3vw,2.4rem)', letterSpacing: '-0.02em' }}>
+            <span className="grad-fire font-serif">Our Valuable Brands</span>
           </h2>
         </div>
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-2.5 reveal">
-          {CLIENTS.map(name => (
-            <div key={name}
-              className="flex items-center justify-center px-5 py-3.5 rounded-xl font-display font-extrabold text-[15px] text-white/20 hover:text-white/75 transition-all duration-300 cursor-default hover:-translate-y-0.5"
-              style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.06)' }}
-              onMouseOver={(e) => { e.currentTarget.style.background='rgba(255,69,0,0.06)'; e.currentTarget.style.borderColor='rgba(255,69,0,0.15)'; }}
-              onMouseOut={(e) => { e.currentTarget.style.background='rgba(255,255,255,0.02)'; e.currentTarget.style.borderColor='rgba(255,255,255,0.06)'; }}>
-              {name}
+
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 reveal">
+          {BRANDS.map((brand, index) => (
+            <div
+              key={brand.name || index}
+              className="group rounded-2xl p-5 flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-1"
+              style={{
+                background: 'rgba(255,255,255,0.02)',
+                border: '1px solid rgba(255,255,255,0.06)',
+              }}
+            >
+              <Image
+                src={brand.logo}
+                alt={brand.name}
+                width={120}
+                height={60}
+                className="h-14 w-auto object-contain mb-3 opacity-80 group-hover:opacity-100 transition"
+              />
+
+              <h4 className="text-center text-sm font-semibold text-white/70 group-hover:text-white">
+                {brand.name}
+              </h4>
             </div>
           ))}
         </div>
+
       </div>
     </section>
   )
 }
 
+
+
+
+
+
+/* ═══════════════════════════════════════
+   CLIENTS
+═══════════════════════════════════════ */
+export function Clients() {
+  useScrollReveal()
+
+  return (
+    <section id="clients" className="py-24" style={{ background: '#06060a' }}>
+      <div className="max-w-[1280px] mx-auto px-7">
+
+        <div className="text-center mb-12 reveal">
+          <span className="section-label mb-3">Trusted By</span>
+
+          <h2 className="font-display font-extrabold text-white"
+            style={{ fontSize: 'clamp(1.6rem,3vw,2.4rem)', letterSpacing: '-0.02em' }}>
+            <span className="grad-fire font-serif">Our Valuable Clients </span>
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 reveal">
+          {CLIENTS.map((client, index) => (
+            <div
+              key={client.name || index}
+              className="group rounded-2xl p-5 flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-1"
+              style={{
+                background: 'rgba(255,255,255,0.02)',
+                border: '1px solid rgba(255,255,255,0.06)',
+              }}
+            >
+              <Image
+                src={client.logo}
+                alt={client.name}
+                width={120}
+                height={60}
+                className="h-14 w-auto object-contain mb-3 opacity-80 group-hover:opacity-100 transition"
+              />
+
+              <h4 className="text-center text-sm font-semibold text-white/70 group-hover:text-white">
+                {client.name}
+              </h4>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  )
+}
 /* ═══════════════════════════════════════
    TESTIMONIALS
 ═══════════════════════════════════════ */

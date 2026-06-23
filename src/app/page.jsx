@@ -8,6 +8,7 @@ import Contact     from '@/components/sections/Contact'
 import {
   Stats, Services, Products, Projects,
   CtaBanner, Clients, Testimonials, Faq,
+  Brands,
 } from '@/components/sections/Sections'
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <Products />
         <Projects />
         <CtaBanner />
+        <Brands></Brands>
         <Clients />
         <Testimonials />
         <Faq />

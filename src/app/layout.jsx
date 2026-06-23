@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "SafeCare & Trade — Fire Safety Reimagined",
+  title: "SafeCare Trade & Engineering — Fire Safety Reimagined",
   description:
     "Bangladesh's most advanced fire safety engineering company. Protecting lives with cutting-edge technology.",
   keywords:

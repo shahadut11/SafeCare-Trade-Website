@@ -23,7 +23,7 @@ export const metadata = {
     "fire safety bangladesh, fire alarm system, sprinkler system, gas suppression, fire engineering company",
 
   openGraph: {
-    title: "SafeCare & Trade",
+    title: "SafeCare Trade & Engineering",
     description: "Bangladesh's #1 Fire Safety Engineering Company",
     type: "website",
     images: [

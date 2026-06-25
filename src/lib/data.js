@@ -89,7 +89,7 @@ export const NAV_LINKS = [
 ]
 
 export const HERO = {
-  eyebrow: 'Fire Protection & Engineering Solutions',
+  eyebrow: 'Fire , Electrical & Security System Solutions',
 
   lineSmall:
     'Consultancy • Design • Supply • Installation • Testing & Commissioning',
@@ -133,7 +133,7 @@ export const ABOUT = {
     'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=85',
 
   body:
-    'SafeCare Trade & Engineering is a professional fire safety engineering company in Bangladesh. We provide consultancy, design, supply, installation, testing, commissioning and Fire Service approval support for all types of industrial, commercial and residential projects.',
+    'SafeCare Trade & Engineering is a trusted fire safety and engineering company in Bangladesh, providing consultancy, design, supply, installation, testing, commissioning and maintenance services. We specialize in fire protection, fire detection & alarm systems, fire suppression systems and regulatory approval support for industrial, commercial and residential projects. Our solutions are developed in accordance with NFPA, BNBC and internationally recognized fire safety standards.',
 
   features: [
     {
@@ -185,65 +185,164 @@ export const STATS = [
   },
 ]
 
-export const SERVICES = [
+
+export const CONSULTANCY_SERVICES = [
   {
     icon: '🔥',
     title: 'Fire Protection System',
-    desc: 'Complete fire protection solutions for all building types.',
+    desc: 'Professional consultancy for fire protection system design, compliance and implementation.',
   },
 
   {
     icon: '🚨',
-    title: 'Fire Detection System',
-    desc: 'Advanced fire alarm and detection systems.',
+    title: 'Fire Detection & Alarm System',
+    desc: 'Expert guidance on fire detection, alarm system design and regulatory compliance.',
   },
 
   {
-    icon: '💧',
-    title: 'Fire Hydrant System',
-    desc: 'Hydrant network design and installation.',
-  },
-
-  {
-    icon: '🚿',
-    title: 'Fire Sprinkler System',
-    desc: 'Automatic sprinkler system installation.',
+    icon: '🧱',
+    title: 'Passive Fire Protection System',
+    desc: 'Consultancy for fire-rated partitions, doors, collars, sealants and passive protection solutions.',
   },
 
   {
     icon: '🧯',
-    title: 'Gas Suppression System',
-    desc: 'FM-200 and Novec clean-agent systems.',
+    title: 'Fire Suppression System',
+    desc: 'Design review and consultancy for sprinkler, hydrant and clean-agent suppression systems.',
   },
 
   {
-    icon: '⚙️',
-    title: 'Fire Pump System',
-    desc: 'Electric, diesel and jockey pump systems.',
+    icon: '⚡',
+    title: 'Electrical Substation',
+    desc: 'Engineering consultancy for substation design, safety assessment and operational compliance.',
+  },
+
+  {
+    icon: '⛈️',
+    title: 'Lightning Protection System',
+    desc: 'Risk assessment, design and consultancy for lightning protection systems.',
   },
 
   {
     icon: '📋',
     title: 'Fire Safety Plan Approval',
-    desc: 'FSCD approval documentation and support.',
+    desc: 'Preparation and approval support for fire safety plans from BFSCD authorities.',
+  },
+
+  {
+    icon: '📐',
+    title: 'Detailed Engineering Assessment',
+    desc: 'Comprehensive engineering assessment, analysis and compliance evaluation services.',
   },
 
   {
     icon: '🏗️',
     title: 'Industrial Design & Drawing',
-    desc: 'Professional engineering design and drawing services.',
+    desc: 'Professional industrial design, shop drawing and engineering documentation services.',
   },
 
   {
-    icon: '🔍',
-    title: 'Engineering Assessment',
-    desc: 'Detailed fire safety and risk assessments.',
+    icon: '✅',
+    title: 'RSC / Nirapon Approval Support',
+    desc: 'Technical consultancy and documentation support for RSC and Nirapon compliance approvals.',
+  },
+]
+
+export const SERVICES = [
+  {
+    icon: '🔥',
+    title: 'Fire Protection System',
+    desc: 'Complete fire protection solutions for residential, commercial and industrial facilities.',
+  },
+
+  {
+    icon: '🚨',
+    title: 'Fire Detection & Alarm System',
+    desc: 'Advanced fire detection, alarm and notification systems.',
+  },
+
+  {
+    icon: '🚒',
+    title: 'Fire Hydrant & Standpipe System',
+    desc: 'Design, supply and installation of fire hydrant and standpipe networks.',
+  },
+
+  {
+    icon: '🚿',
+    title: 'Fire Sprinkler System',
+    desc: 'Automatic fire sprinkler systems for effective fire suppression.',
+  },
+
+  {
+    icon: '🧯',
+    title: 'Gas Suppression System',
+    desc: 'FM-200, Novec 1230 and other clean-agent fire suppression systems.',
+  },
+
+  {
+    icon: '⚙️',
+    title: 'Fire Pump System',
+    desc: 'Electric, diesel and jockey pump installation and commissioning.',
+  },
+
+  {
+    icon: '🪟',
+    title: 'Fire Rated Curtain',
+    desc: 'Supply, installation and maintenance of fire-rated curtain systems.',
+  },
+
+  {
+    icon: '🔩',
+    title: 'Fire Rated Collar',
+    desc: 'Supply and installation of fire-rated pipe penetration sealing solutions.',
+  },
+
+  {
+    icon: '🧱',
+    title: 'Fire Rated Gypsum Board',
+    desc: 'Fire-resistant partition and ceiling solutions with certified gypsum boards.',
+  },
+
+  {
+    icon: '⚡',
+    title: 'Electrical Substation',
+    desc: 'Supply, installation and maintenance of electrical substation systems.',
+  },
+
+  {
+    icon: '🔌',
+    title: 'Electrical Equipment',
+    desc: 'Supply and installation of industrial and commercial electrical equipment.',
+  },
+
+  {
+    icon: '🧯',
+    title: 'Fire Extinguisher',
+    desc: 'Supply, refilling, testing and maintenance of fire extinguishers.',
+  },
+
+  {
+    icon: '🔋',
+    title: 'Generator',
+    desc: 'Generator supply, installation, testing and maintenance services.',
+  },
+
+  {
+    icon: '♨️',
+    title: 'Boiler',
+    desc: 'Industrial boiler supply, installation and maintenance solutions.',
+  },
+
+  {
+    icon: '🚪',
+    title: 'Exit Sign & Emergency Light',
+    desc: 'Emergency exit signage and lighting system installation.',
   },
 
   {
     icon: '🛠️',
     title: 'Maintenance & Support',
-    desc: 'Annual maintenance and emergency support.',
+    desc: 'Annual maintenance contracts, inspections and emergency support services.',
   },
 ]
 

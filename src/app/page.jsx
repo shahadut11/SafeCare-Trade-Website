@@ -9,6 +9,7 @@ import {
   Stats, Services, Products, Projects,
   CtaBanner, Clients, Testimonials, Faq,
   Brands,
+  Consultancy,
 } from '@/components/sections/Sections'
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Ticker />
         <About />
         <Stats />
+        <Consultancy></Consultancy>
         <Services />
         <Products />
         <Projects />

@@ -13,9 +13,9 @@ const BUILDING_TYPES = [
   'Data Center', 'Industrial / Warehouse', 'Residential', 'Educational Institution',
 ]
 const CONTACT_INFO = [
-  { Icon: MapPin, title: 'Head Office',              text: SITE.address },
-  { Icon: Phone,  title: 'Emergency Hotline (24/7)', text: SITE.phone, isPhone: true },
-  { Icon: Mail,   title: 'Email',                    text: SITE.email },
+  { Icon: MapPin, title: 'Head Office', text: SITE.address },
+  { Icon: Phone, title: 'Emergency Hotline (24/7)', text: SITE.phone, isPhone: true },
+  { Icon: Mail, title: 'Email', text: SITE.email },
 ]
 
 export default function Contact() {
@@ -37,8 +37,8 @@ export default function Contact() {
               </span>
             </h2>
             <p className="font-body text-white/38 leading-relaxed mb-9" style={{ fontSize: '16px' }}>
-              Our certified fire safety engineers are ready to assess your facility.
-              Get in touch for a free consultation and tailored proposal.
+              Our certified fire safety engineers are ready to assess your facility and provide tailored fire protection solutions.
+             Contact us today for a consultation and a customized proposal.
             </p>
 
             {/* Contact cards */}
@@ -47,11 +47,11 @@ export default function Contact() {
                 <div key={title}
                   className="flex items-start gap-4 p-5 rounded-[14px] transition-all duration-300"
                   style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)' }}
-                  onMouseOver={(e) => { e.currentTarget.style.background='rgba(255,255,255,0.05)'; e.currentTarget.style.borderColor='rgba(255,69,0,0.15)'; }}
-                  onMouseOut={(e) => { e.currentTarget.style.background='rgba(255,255,255,0.03)'; e.currentTarget.style.borderColor='rgba(255,255,255,0.06)'; }}
+                  onMouseOver={(e) => { e.currentTarget.style.background = 'rgba(255,255,255,0.05)'; e.currentTarget.style.borderColor = 'rgba(255,69,0,0.15)'; }}
+                  onMouseOut={(e) => { e.currentTarget.style.background = 'rgba(255,255,255,0.03)'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.06)'; }}
                 >
                   <div className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
-                       style={{ background: 'rgba(255,69,0,0.1)', border: '1px solid rgba(255,69,0,0.15)', color: '#ff6a2b' }}>
+                    style={{ background: 'rgba(255,69,0,0.1)', border: '1px solid rgba(255,69,0,0.15)', color: '#ff6a2b' }}>
                     <Icon size={18} />
                   </div>
                   <div>
@@ -68,28 +68,28 @@ export default function Contact() {
 
             {/* Map placeholder */}
             <div
-  className="h-[200px] rounded-[18px] flex flex-col items-center justify-center gap-2.5"
-  style={{
-    background: 'rgba(255,255,255,0.02)',
-    border: '1px solid rgba(255,255,255,0.06)',
-  }}
->
-  <MapPin size={36} color="rgba(255,255,255,0.18)" />
+              className="h-[200px] rounded-[18px] flex flex-col items-center justify-center gap-2.5"
+              style={{
+                background: 'rgba(255,255,255,0.02)',
+                border: '1px solid rgba(255,255,255,0.06)',
+              }}
+            >
+              <MapPin size={36} color="rgba(255,255,255,0.18)" />
 
-  <p className="font-body text-[13px] text-white/20 text-center px-4">
-    House-20 (Gr. FL), Road-6, Lane-4, Block-B, Mirpur-6, Dhaka-1216
-  </p>
+              <p className="font-body text-[13px] text-white/20 text-center px-4">
+                House-20 (Gr. FL), Road-6, Lane-4, Block-B, Mirpur-6, Dhaka-1216
+              </p>
 
-  <a
-    href="https://www.google.com/maps/search/?api=1&query=House-20+Road-6+Lane-4+Block-B+Mirpur-6+Dhaka-1216"
-    target="_blank"
-    rel="noreferrer"
-    className="font-body text-[12px] font-semibold no-underline transition-colors duration-200"
-    style={{ color: '#ff4500' }}
-  >
-    View on Google Maps →
-  </a>
-</div>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=House-20+Road-6+Lane-4+Block-B+Mirpur-6+Dhaka-1216"
+                target="_blank"
+                rel="noreferrer"
+                className="font-body text-[12px] font-semibold no-underline transition-colors duration-200"
+                style={{ color: '#ff4500' }}
+              >
+                View on Google Maps →
+              </a>
+            </div>
           </div>
 
           {/* ── Right Form ── */}

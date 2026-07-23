@@ -59,6 +59,27 @@ import abb from "../assets/productlogo/abb.jpeg"
 import gst from "../assets/productlogo/gst.png"
 // ─────────────────────────────────────────────────────────
 
+
+
+import firePump from "../assets/productPghoto/Fire Pump System.JPG"
+import firedetection from "../assets/productPghoto/CFDS-01.JPG"
+import firedetection1 from "../assets/productPghoto/CFDS-02.JPG"
+import Sprinkler from "../assets/productPghoto/Sprinkler.JPG"
+import FE from "../assets/productPghoto/FE.JPG"
+import FM200 from "../assets/productPghoto/FM-200.JPG"
+import EML from "../assets/productPghoto/EML-01.JPG"
+import FDr from "../assets/productPghoto/FDr.JPG"
+import PAVA from "../assets/productPghoto/PAVA.JPG"
+import FAC from "../assets/productPghoto/FAC.JPG"
+import fd from "../assets/productPghoto/fd.jpg"
+import FRS from "../assets/productPghoto/FRS.png"
+import FRC from "../assets/productPghoto/FRC.png"
+import FRGB from "../assets/productPghoto/FRGB.png"
+import TM from "../assets/productPghoto/TM.jpg"
+import DBB from "../assets/productPghoto/DBB.jpg"
+
+
+
 export const SITE = {
   name: 'SafeCare Trade & Engineering',
   tagline: 'Fire Protection & Engineering Solutions',
@@ -355,69 +376,138 @@ export const PRODUCT_CATEGORIES = [
 
 export const PRODUCTS = [
   {
-    cat: 'suppression',
-    label: 'Fire Pump',
-    name: 'Fire Pump System',
-    desc: 'Electric, diesel and jockey pump setup.',
-    img: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=400&q=80',
+    cat: "suppression",
+    label: "Fire Pump",
+    name: "Fire Pump System",
+    desc: "Electric, diesel and jockey pump setup.",
+    img: firePump,
   },
 
   {
-    cat: 'detection',
-    label: 'Detection',
-    name: 'Fire Alarm Control Panel',
-    desc: 'Addressable and conventional fire alarm panel.',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80',
+    cat: "detection",
+    label: "Detection",
+    name: "Fire Alarm and Detection System",
+    desc: "Addressable and conventional fire alarm panel.",
+    img: firedetection,
   },
 
   {
-    cat: 'detection',
-    label: 'Detection',
-    name: 'Smoke Detector',
-    desc: 'Photoelectric smoke detector.',
-    img: 'https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=400&q=80',
+    cat: "detection",
+    label: "Detection",
+    name: "Fire Alarm and Detection System",
+    desc: "Addressable and conventional fire alarm panel.",
+    img: firedetection1,
   },
 
   {
-    cat: 'suppression',
-    label: 'Suppression',
-    name: 'Sprinkler Head',
-    desc: 'Automatic fire sprinkler.',
-    img: 'https://images.unsplash.com/photo-1558618047-3d6232f0b5a1?w=400&q=80',
+    cat: "suppression",
+    label: "Suppression",
+    name: "Sprinkler Head",
+    desc: "Automatic fire sprinkler.",
+    img: Sprinkler,
   },
 
   {
-    cat: 'suppression',
-    label: 'Suppression',
-    name: 'FM-200 System',
-    desc: 'Clean agent gas suppression system.',
-    img: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&q=80',
+    cat: "suppression",
+    label: "Suppression",
+    name: "FM-200 System",
+    desc: "Clean agent gas suppression system.",
+    img: FM200,
   },
 
   {
-    cat: 'safety',
-    label: 'Safety',
-    name: 'Fire Extinguisher',
-    desc: 'Portable fire extinguisher.',
-    img: 'https://images.unsplash.com/photo-1612538498456-e861df91d4d0?w=400&q=80',
+    cat: "safety",
+    label: "Safety",
+    name: "Fire Extinguisher",
+    desc: "Portable fire extinguisher.",
+    img: FE,
   },
 
   {
-    cat: 'safety',
-    label: 'Safety',
-    name: 'Emergency Exit Light',
-    desc: 'Emergency evacuation lighting.',
-    img: 'https://images.unsplash.com/photo-1587438920960-af2d3fef7c23?w=400&q=80',
+    cat: "safety",
+    label: "Safety",
+    name: "Emergency Exit Light",
+    desc: "Emergency evacuation lighting.",
+    img: EML,
   },
 
   {
-    cat: 'safety',
-    label: 'Safety',
-    name: 'Fire Rated Door',
-    desc: 'Certified fire-resistant door.',
-    img: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&q=80',
+    cat: "safety",
+    label: "Safety",
+    name: "Fire Rated Door",
+    desc: "Certified fire-resistant door.",
+    img: FDr,
   },
-]
+ {
+  cat: "safety",
+  label: "Safety",
+  name: "Public Address & Voice Alarm System",
+  desc: "Emergency voice evacuation and public announcement system.",
+  img: PAVA,
+},
+{
+  cat: "detection",
+  label: "Detection",
+  name: "Fire Alarm Cable",
+  desc: "Fire-resistant cable for reliable alarm signal transmission.",
+  img: FAC,
+},
+
+
+{
+  cat: "safety",
+  label: "Safety",
+  name: "Fire Rated Shutter",
+  desc: "Automatic fire-resistant rolling shutter for compartmentation.",
+  img: FRS,
+},
+
+{
+  cat: "safety",
+  label: "Safety",
+  name: "Fire Rated Curtain",
+  desc: "Automatic fire barrier curtain for smoke and fire protection.",
+  img: FRC,
+},
+
+{
+  cat: "safety",
+  label: "Safety",
+  name: "Fire Rated Gypsum Board",
+  desc: "Fire-resistant gypsum board for walls and ceiling systems.",
+  img: FRGB,
+},
+
+
+
+
+{
+  cat: "electrical",
+  label: "Electrical",
+  name: "Transformer",
+  desc: "Reliable power distribution transformer for industrial facilities.",
+  img: TM,
+},
+
+{
+  cat: "electrical",
+  label: "Electrical",
+  name: "Fire Rated Distribution Board",
+  desc: "Fire-resistant electrical distribution board for critical systems.",
+  img: DBB,
+},
+
+{
+  cat: "safety",
+  label: "Safety",
+  name: "Fire Rated Damper",
+  desc: "Automatic fire damper for preventing fire spread through ducts.",
+  img: fd,
+},
+
+
+
+];
 
 export const PROJECTS = [
   {
